@@ -17,12 +17,12 @@ public class WikipediaClickableElementsTest extends BasePage {
 
     @Test
     public void checkClickableElements() {
-        wikipediaMainPage.pressButtonWithLanguage("RU");
-        clickTheElementByTagAndText("span", "Содержание");
-        clickTheElementByTagAndText("span", "Случайная статья");
-        clickTheElementByTagAndText("span", "Форум");
-        clickTheElementByTagAndText("span", "Заглавная страница");
-        clickTheElementByTagAndText("span", "Обсуждение", 2);
+//        wikipediaMainPage.pressButtonWithLanguage("RU");
+//        clickTheElementByTagAndText("span", "Содержание");
+//        clickTheElementByTagAndText("span", "Случайная статья");
+//        clickTheElementByTagAndText("span", "Форум");
+//        clickTheElementByTagAndText("span", "Заглавная страница");
+//        clickTheElementByTagAndText("span", "Обсуждение", 2);
     }
 
 }
