@@ -11,7 +11,7 @@ public class BasePage {
 
     @BeforeClass
     @Parameters({"browser", "browserVersion"})
-    public void setUp(@Optional("firefox") String browser, @Optional String browserVersion) {
+    public void setUp(@Optional("Chrome") String browser, @Optional String browserVersion) {
         config.setUpConfig(browser, browserVersion);
     }
 }
